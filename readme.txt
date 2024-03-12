@@ -1,4 +1,3 @@
-admin login
+Eventle
 
-name:admin
-pass:admin
+An Event Management System
