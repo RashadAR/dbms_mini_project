@@ -59,6 +59,5 @@ else{
 ?>
 </div>
 </div>
-<?php include 'utils/footer.php'?>;
  </body>
 </html>

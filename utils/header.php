@@ -1,7 +1,7 @@
 <title>Eventle</title>
 <style>
 .bgImage {
-    background-image: url(images/cs03.jpg);
+    background-image: url(images/bg.png);
     background-size: cover;
     background-position: center center;
     height: 650px;

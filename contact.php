@@ -22,15 +22,17 @@
             
             <div class="container">
                 <div class="col-md-6 contacts">
-                    <h1 style="color:#000080 ; font-size:42px ; font-style:bold "><span class="glyphicon glyphicon-user"></span> College</h1>
+                    <h1 style="color:#000080 ; font-size:42px ; font-style:bold ">
+                    <span class="glyphicon glyphicon-user"></span> Event</h1>
                     <p>
-                        <span class="glyphicon glyphicon-envelope"></span> Email: collegeevent@gmail.com<br>
+                        <span class="glyphicon glyphicon-envelope"></span> Email: event@gmail.com<br>
     
                         <span class="glyphicon glyphicon-phone"></span> Mobile: 9123456789
                     </p>
                 </div>
                 <div class="col-md-6 contacts">
-                    <h1 style="color:#000080 ; font-size:42px ; font-style:bold "><span class="glyphicon glyphicon-user"></span> Example</h1>
+                    <h1 style="color:#000080 ; font-size:42px ; font-style:bold ">
+                    <span class="glyphicon glyphicon-user"></span> Example</h1>
                     <p>
                         <span class="glyphicon glyphicon-envelope"></span> Email: example@gmail.com<br>
     

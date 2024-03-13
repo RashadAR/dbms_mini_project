@@ -8,7 +8,6 @@ $result = mysqli_query($conn,"SELECT * FROM student_coordinator s ,events e wher
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Eventle</title>
-        <title></title>
         <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
         
     </head>
@@ -53,5 +52,4 @@ else{
 </div>
 </div>
  </body>
- <?php include 'utils/footer.php';?>
 </html>
