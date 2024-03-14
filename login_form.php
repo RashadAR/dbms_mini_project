@@ -31,7 +31,6 @@ include_once 'classes/db1.php';?>
                 </div>
             </div>
         </div>
-        <?php require 'utils/footer.php'; ?>
     </body>
 </html>
 <?php

@@ -7,10 +7,18 @@
 <?php require 'utils/styles.php'; ?>
 </head>
 <style>
-
-
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
 hr.blueline {
-  border: 10px solid #00004d;
+  margin-top: 50px;
+  border: 5px solid #00004d;
   border-radius: 5px;
 }
 
@@ -41,8 +49,8 @@ hr.blueline {
     </p>
 
 </div>
+<hr class="blueline">
+<?php require 'utils/footer.php'; ?>
 </body>
-
- <?php require 'utils/footer.php'; ?>
 
 </html>
