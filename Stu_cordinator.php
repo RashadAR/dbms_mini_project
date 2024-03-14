@@ -8,7 +8,7 @@ $result = mysqli_query($conn,"SELECT * FROM student_coordinator s ,events e wher
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Eventle</title>
-        <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
+        <?php require 'utils/styles.php'; ?>
         
     </head>
 
@@ -35,7 +35,7 @@ while($row = mysqli_fetch_array($result)) {
     <td><?php echo $row["st_name"]; ?></td>
     <td><?php echo $row["phone"]; ?></td>
     <td><?php echo $row["event_title"]; ?></td>
-    <td> <?php echo '<a  href="updateStudent.php?id='.$row['event_id'].'" class = "btn btn-default"> Update</a>'?></td>
+    <td> <?php echo '<a  href="updateStudent.php?id='.$row['event_id'].'" class = "btn btn-info"> Update</a>'?></td>
    
 </tr>
 <?php
@@ -51,5 +51,6 @@ else{
 ?>
 </div>
 </div>
+<?php require 'utils/footer.php'; ?>
  </body>
 </html>

@@ -11,29 +11,27 @@ include_once 'classes/db1.php';?>
                 color: red;
             }            
         </style>  
-        <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
+        <?php require 'utils/styles.php'; ?>
             </head>
     <body>
-        <?php require 'utils/header.php'; ?><!--header content. file found in utils folder-->
-        <div class = "content"><!--body content holder-->
+        <?php require 'utils/header.php'; ?>
+        <div class = "content">
             <div class = "container">
                 <div class ="col-md-6 col-md-offset-3">
                   
-                    <form method="POST"><!--form-->
-                      
-                            <!--username field-->
+                    <form method="POST">
                             <label>UserName:</label><br>
-        <input type="text" name="name" class="form-control" required><br>
+        <input type="text" name="name" class="form-control" placeholder="Enter your username" required><br>
                             
                    
         <label>Password</label><br>
-        <input type="password" name="password" class="form-control" required><br>
-                        <button type = "submit" name="update" class = "btn btn-default">Login</button>
+        <input type="password" name="password" placeholder="Enter your password"  class="form-control" required><br>
+                        <button type = "submit" name="update" class = "btn btn-info">Login</button>
                     </form>
-                </div><!--col md 6 div-->
-            </div><!--container div-->
-        </div><!--content div-->
-        <?php require 'utils/footer.php'; ?><!--footer content. file found in utils folder-->
+                </div>
+            </div>
+        </div>
+        <?php require 'utils/footer.php'; ?>
     </body>
 </html>
 <?php

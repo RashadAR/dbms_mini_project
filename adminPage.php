@@ -1,6 +1,7 @@
 <?php
 include_once 'classes/db1.php';
-$result = mysqli_query($conn,"SELECT * FROM staff_coordinator s ,event_info ef ,student_coordinator st,events e where e.event_id= ef.event_id and e.event_id= s.event_id and e.event_id= st.event_id");
+$result = mysqli_query($conn,
+"SELECT * FROM staff_coordinator s ,event_info ef ,student_coordinator st,events e where e.event_id= ef.event_id and e.event_id= s.event_id and e.event_id= st.event_id");
 ?>
 
 
@@ -26,8 +27,8 @@ if (mysqli_num_rows($result) > 0) {
                     <thead>
                         <tr>
                             
-                            <th>Event_name</th>
-                            <th>No. of Participents</th>
+                            <th>Event Name</th>
+                            <th>Number of Participants</th>
                             <th>Price</th>
                             <th>Student Co-ordinator</th>
                             <th>Staff Co-ordinator</th>
@@ -57,7 +58,7 @@ if (mysqli_num_rows($result) > 0) {
                             
                             echo '<td>'
                         
-                            .'<a class="delete" href="deleteEvent.php?id='.$row['event_id'].'">Delete</a> '
+                            .'<a class="btn btn-danger delete" href="deleteEvent.php?id='.$row['event_id'].'">Delete</a> '
                             .'</td>';
                             echo '</tr>';  
 
@@ -72,10 +73,10 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 ?>             
-                <a class="btn btn-default" href = "createEventForm.php">Create Event</a><!--register button-->
+                <a class="btn btn-success" href = "createEventForm.php">Create Event</a>
             </div>
         </div>
         
-        
+        <?php require 'utils/footer.php'; ?>
     </body>
 </html>

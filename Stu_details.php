@@ -8,7 +8,7 @@ $result = mysqli_query($conn,"SELECT * FROM events,registered r ,participent p W
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Eventle</title>
-        <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
+        <?php require 'utils/styles.php'; ?>
         
     </head>
 
@@ -59,5 +59,6 @@ else{
 ?>
 </div>
 </div>
+<?php require 'utils/footer.php'; ?>
  </body>
 </html>

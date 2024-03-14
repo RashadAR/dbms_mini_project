@@ -3,13 +3,13 @@
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Eventle</title>
-        <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
+        <?php require 'utils/styles.php'; ?>
         
     </head>
     <body>
-        <?php require 'utils/header.php'; ?><!--header content. file found in utils folder-->
+        <?php require 'utils/header.php'; ?>
 
-        <div class ="content"><!--body content holder-->
+        <div class ="content">
             <div class = "container">
                 <div class ="col-md-6 col-md-offset-3">
                     <form action="RegisteredEvents.php" class ="form-group" method="POST">
@@ -27,5 +27,6 @@
                 </div>
             </div>
         </div>
+        <?php require 'utils/footer.php'; ?>
     </body>
 </html>

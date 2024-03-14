@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Eventle</title>
         <title></title>
-        <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
+        <?php require 'utils/styles.php'; ?>
         
     </head>
     <body>
@@ -13,40 +13,40 @@
   
   <div class="w3-container"> 
   
-  <div class ="content"><!--body content holder-->
+  <div class ="content">
             <div class = "container">
                 <div class ="col-md-6 col-md-offset-3">
                 <label>Event ID:</label><br>
-    <input type="number" name="event_id" required class="form-control"><br><br>
+    <input type="number" name="event_id" required class="form-control" placeholder="Enter Event ID"><br><br>
     
     <label>Event Name:</label><br>
-    <input type="text" name="event_title" required class="form-control"><br><br>
+    <input type="text" name="event_title" required class="form-control" placeholder="Enter Event Name"><br><br>
 
     <label>Event Price:</label><br>
-    <input type="number" name="event_price" required class="form-control"><br><br>
+    <input type="number" name="event_price" required class="form-control" placeholder="Enter Event Price"><br><br>
 
     <label>Upload Path to Image:</label><br>
-    <input type="text" name="img_link" required class="form-control"><br><br>
+    <input type="text" name="img_link" required class="form-control" placeholder="Enter Image Path"><br><br>
 
     <label>Type_ID </label><br>
-    <input type="number" name="type_id" required class="form-control"><br><br>
+    <input type="number" name="type_id" required class="form-control" placeholder="Enter Type ID"><br><br>
 
     <label>Event Date</label><br>
     <input type="date" name="Date" required class="form-control"><br><br>
 
      <label>Event Time</label><br>
-    <input type="text" name="time" required class="form-control"><br><br>
+    <input type="text" name="time" required class="form-control" placeholder="Enter Event Time"><br><br>
 
     <label>Event Location</label><br>
-    <input type="text" name="location" required class="form-control"><br><br>
+    <input type="text" name="location" required class="form-control" placeholder="Enter Event Location"><br><br>
     <label>Staff co-ordinator name</label><br>
-    <input type="text" name="sname" required class="form-control"><br><br>
+    <input type="text" name="sname" required class="form-control" placeholder="Enter Event Staff Coordinator"><br><br>
     <label>Student co-ordinator name</label><br>
-    <input type="text" name="st_name" required class="form-control"><br><br>
+    <input type="text" name="st_name" required class="form-control" placeholder="Enter Event Student Coordinator"><br><br>
 
-    <button type="submit" name="update" class = "btn btn-default pull-right">Create Event <span class="glyphicon glyphicon-send"></span></button>
+    <button type="submit" name="update" class = "btn btn-success pull-right">Create Event <span class="glyphicon glyphicon-send"></span></button>
 
-    <a class="btn btn-default navbar-btn" href = "adminPage.php"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</a>
+    <a class="btn btn-danger navbar-btn" href = "adminPage.php"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</a>
 
   
   </div></div></div>
@@ -56,7 +56,6 @@
     
     </body>
 
-  <?php require 'utils/footer.php'; ?>
 </html>
 
 <?php
