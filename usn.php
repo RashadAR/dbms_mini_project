@@ -27,6 +27,6 @@
                 </div>
             </div>
         </div>
-        <?php require 'utils/footer.php'; ?>
+        
     </body>
 </html>
